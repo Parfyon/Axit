@@ -1,0 +1,545 @@
+html {
+	font-size: 20px;
+ 	font-family: "Raleway";
+ 	color: rgba(255, 255, 255, 0.69);
+ 	line-height: 1.2;
+}
+
+* {
+	padding: 0;
+	margin:0;
+}
+
+body {
+	min-width: 1100px;
+}
+
+ p {
+  font-size: 0.8rem;
+  font-family: "OpenSans";
+  color: rgb(134, 135, 139);
+  line-height: 1.429;
+}
+
+ h1 {
+	text-transform: uppercase;
+	font-size: 1rem;
+    font-family: "Raleway";
+    color: rgb(33, 33, 33);
+    line-height: 1.194;
+    margin-top: 0%;
+}
+
+.fab, .fas {
+	color: grey;
+	font-size: 3rem;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+.container {
+	width: 78%;
+	margin: 0 auto;
+}
+/*-------------------------navBar*/
+#navBar {
+	background-color: #000000;
+}
+
+#logo {
+	display: inline-block;
+	margin: 2% 0;
+}
+
+nav {
+	float: right;
+	margin: 1.5% 0;
+	padding: 1% 0;
+}
+
+nav li {
+	display:inline;
+	margin: 0 15px;
+}
+
+ nav li a {
+ 	transition: color 0.7s;
+ }
+
+nav li a:hover {
+	color: #ff9b51;
+}
+/*------------------------/navBar*/
+
+/*-------------------------header*/
+header {
+	background-image: url('../img/Header Panel.png');
+	background-repeat: no-repeat;
+	padding-bottom: 10%;
+	position: relative;
+}
+
+#LogoForHeader {
+	display: inline-block;
+	margin-top: 17%; 
+	margin-bottom: 2.4%;
+}
+
+a + h2 {
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+}
+
+header hr {
+	width: 6%;
+	margin: 2.7% 0;
+}
+
+header p {
+	width: 45%;
+ 	font-size: 0.8rem;
+  	color: rgba(255, 255, 255, 0.9);
+}
+
+#download{
+	margin-top: 2.7%;
+	padding: 1% 3%;
+	background: transparent;
+	color: white;
+	border: 3px solid white;
+	font-size: 1.1rem;
+}
+
+
+.formContainer {
+	position: absolute;
+	top: 32%;
+	right: 6.8%;
+	width: 26.4vw;
+	background-color: white;
+	color: black;
+	font-size: 20px;
+	font-family: "OpenSans";
+	color: rgb(51, 51, 51);
+	font-weight: bold;
+	line-height: 1.2;
+}
+
+#forLabel {
+	background-color: #f5f5f5;
+	padding: 2% 0;
+	display: flex;
+	justify-content: center;
+}
+
+#forLabel span {
+	color: #ff9b51;
+}
+
+#email, #name, #password {
+	border-style: none;
+	border-bottom: 0.1vw solid #d6d6d6;
+	font-size: 0.9rem;
+	font-family: "OpenSans";
+	color: rgb(189, 189, 189);
+	line-height: 1.2;
+	margin: 11% 18%;
+}
+
+#but {
+	background-color: #ff9b51;
+	border-style: none;
+	font-size: 1rem;
+	display: block;
+	width: 100%;
+	padding: 2% 0;
+	margin: 0 auto;
+}
+/*------------------------/header*/
+/*-------------------------brandBar*/
+#brandBar {
+	background-color: white;
+	padding: 1% 0;
+  	font-size: 0.8rem;
+  	font-family: "OpenSans";
+  	color: rgb(134, 135, 139);
+}
+
+#brandBar .container {
+	display: flex;
+}
+
+#barTxt {
+	width: 38vw;
+	align-self: flex-start;
+}
+
+#barTxt h1 {
+	font-weight: bold;
+	color: black;
+	margin-bottom: 1%;
+}
+
+#icons {
+	width: 30vw;
+	margin-left: auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#icons i:hover {
+	color: #ff8b38;
+}
+/*------------------------/brandBar*/
+/*------------------------FEATURES*/
+.features h1 {
+	color: black;
+	font-size: 0.9rem;
+}
+
+.features hr {
+	margin: 3% 0 ;
+	width: 14%;
+}
+/*----------------1---------------*/
+.features {
+	font-size: 0.8rem;
+  	font-family: "OpenSans";
+  	color: rgb(134, 135, 139);
+}
+
+.feature_1 {
+	background-color: #f5f5f5;
+	padding: 4% 0;
+	position: relative;
+}
+
+.feature_1 .container {
+	display: flex;
+	justify-content: space-between;
+}
+
+#someBlocks {
+	height: 350px;
+	align-self: flex-start;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.tabs {
+	width: 110px;
+	height: 110px;
+	background-color: #333333;
+	color: white;
+	display: flex;
+	justify-content: center;
+}
+
+.tabs p {
+	align-self: center;
+}
+
+#someTxt {
+	width: 50%;
+	display: flex;
+	align-items: flex-start;
+}
+
+#someTxt h1 {
+	color: black;
+	margin-bottom: 5%;
+}
+
+#down {
+	position: absolute;
+	left: 30%;
+	top: 75%;
+	background-color: #ff8b38;
+	padding: 1% 2%;
+	border: none;
+	border-radius: 5%;
+	color: white;
+}
+
+.color {
+	background-color: #ff8b38;
+}
+
+#text_2 {
+	display: none;
+}
+/*----------------/1--------------*/
+/*-----------------2--------------*/
+.feature_2 {
+	padding: 3% 0;
+	position: relative;
+	left: -2%;
+}
+
+.feature_2 p {
+	margin: 3% 0 ;
+}
+
+.feature_2 .container {
+	display: flex;
+}
+
+
+#subList {
+	width: 40%;
+	margin-left: auto;
+}
+
+.titles {
+	position: relative;
+}
+
+.fa-cloud-download-alt, .fa-cloud-upload-alt {
+	color: #ff8b38;
+	border: 2px solid #ff8b38;
+	border-radius: 50%;
+	padding: 2%;
+	font-size: 1.3rem;
+}
+
+.fa-cloud-download-alt {
+	position: absolute;
+	top: 12%;
+}
+
+.fa-cloud-upload-alt {
+	position: absolute;
+	top: 60%;
+}
+
+.titles h1 {
+	display: inline;
+	margin-left: 19%;
+}
+
+.titles p {
+	width:87%;
+	margin-left: 20%;
+}
+/*----------------/2--------------*/
+/*-----------------3--------------*/
+.feature_3 {
+	background-color: #f5f5f5;
+	padding: 3% 0;
+	padding-bottom: 2%;
+}
+
+#pictSection {
+	display: flex;
+}
+
+#pictText  {
+	width: 40%;
+}
+
+#pictSection img {
+	margin-left: auto;
+}
+/*----------------/3--------------*/
+/*-----------------------/FEATURES*/
+/*-----------------------OUR_PROCESS*/
+.our_process {
+	padding: 6% 0;
+	background-color: #fff;
+	color:black;
+}
+
+.our_process p {
+  font-size: 0.8rem;
+  font-family: "OpenSans";
+  color: rgb(134, 135, 139);
+  line-height: 1.429;
+}
+
+.our_process .container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.our_process .container h1 {
+	text-transform: uppercase;
+	font-size: 1rem;
+    font-family: "Raleway";
+    color: rgb(33, 33, 33);
+    line-height: 1.194;
+}
+
+.our_process .container hr {
+	width: 20%;
+	margin: 2% 0;
+}
+
+.items {
+	margin-top: 5%;
+	display: flex;
+}
+
+.items h1{
+	margin: 6% 0;
+}
+
+.items div {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+
+.items i {
+	color: #ff8b38;
+	font-size: 1rem;
+	border: 2px solid #ff8b38;
+	border-radius: 100%;
+	padding: 6%;
+}
+/*----------------------/OUR_PROCESS*/
+/*---------------------------pricing*/
+.pricing {
+	background-color: #f5f5f5;
+	padding: 6% 0;
+	color: black;
+}
+
+.pricing .container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.smallLine {
+	width: 15%;
+	margin: 2% 0;
+}
+/*------------------------------slots*/
+.slots {
+	width: 100%;
+	margin-top: 3%;
+	display: flex;
+	justify-content: space-around;	
+	align-items: flex-end;
+}
+
+.fig {
+	background-color: #333333;
+	color: #fff;
+	padding: 2% 0%;
+}
+
+.slots  div {
+	width: 320px;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+.price {
+	padding: 10% 0;
+	font-size: 3rem;
+}
+
+#top_of_slot_1 p ,#top_of_slot_2 p,#top_of_slot_3 p {
+	padding: 2% 0;
+	color: #fff;
+	font-size: 1rem;
+}
+
+.textZone p {
+	background-color: #fff;
+	text-transform: uppercase;
+	padding: 2% 0;
+	margin: 1px 0;
+}
+
+#most_popular {
+	background-color: #ff8b38;
+	text-transform: uppercase; 
+	color: #fff;
+	margin-top: 2%;
+}
+
+.price {
+	padding-bottom: 0;
+}
+/*-----------------------------/slots*/
+/*---------------------------pricing*/
+/*----------------------------contact*/
+.contact form {
+	width: 100%;
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+	position: relative;
+}
+textarea {
+	resize: none;
+	border-style: none;
+	border-bottom: 0.1vw solid #d6d6d6;
+	position: absolute;
+	height: 77%;
+    width: 40%;
+    top: 10%;
+    right: 0%;
+    font-size: 1rem;
+}
+
+.contact input {
+	border-style: none;
+	border-bottom: 0.1vw solid #d6d6d6;
+	width: 30%;
+	margin: 3%;
+	font-size: 0.9rem;
+	font-family: "OpenSans";
+	color: rgb(189, 189, 189);
+	line-height: 1.2;
+}
+
+#mess {
+	background-color: #ff9b51;
+	border-style: none;
+	color: #fff;
+	font-size: 1rem;
+	display: block;
+	width: 20%;
+	padding: 2% 0;
+	margin: 0 auto;
+}
+/*----------------------------/contact*/
+/*footer*/
+footer {
+	padding: 1%;
+	background-color: #000;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+
+#icons_for_footer {
+	width: 20%;
+	margin-bottom: 1%;
+	display: flex;
+	justify-content: space-between;
+}
+
+#icons_for_footer i {
+	font-size: 1.3rem;
+	margin: 0 3%;
+}
+
+#icons_for_footer i:hover {
+	color: #ff9b51;
+}
+/*/footer*/
